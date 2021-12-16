@@ -6,6 +6,18 @@ Ramp iOS SDK is a library that allows you to easily integrate Ramp into your iOS
 
 The quickest way to get started is by following the [tutorial](https://kintegrate.dev/tutorials/getting-started-ios-sdk/) or by downloading the [starter kit](https://kintegrate.dev/starters/kin-ios-starter/).
 
+## Test Enviroment
+
+At the time of this writing the SOLANA_KIN asset is not listed on Ramp's test enviroment. This demo connects directly to the production enviroment in order to show KIN as an option.
+
+To switch your demo to the test environment you need to specify a [test network](https://docs.ramp.network/testing-environments).
+
+Example:
+
+```
+configuration.url = "https://ri-widget-staging.firebaseapp.com/"
+```
+
 ## How to add Ramp
 
 In your Podfile
