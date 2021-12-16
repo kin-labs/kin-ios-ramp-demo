@@ -47,7 +47,7 @@ Press the play icon to start the demo app
 
 Press the Purchase Kin button, follow the on-screen instructions to finish up your purchase.
 
-![Alt text](/media/ramp.gif?raw=true "Purchase Kin")
+<img src="/media/ramp.gif" width="400" />
 
 ## How to add and customize Ramp
 
@@ -132,14 +132,14 @@ Add the subView of our button (Line 201 in the demo)
 ```
         view.addSubview(getRamp)
 ```
-Add
+Add the button to the subview layouts  (Line 209 in the demo)
 
 ```
         getRamp.frame = getRampButtonFrame
         getRamp.layer.cornerRadius = getRampButtonFrame.height / 2.0
 ```
 
-Ramp's SDK requires the RampDelegate protocol three required methods to be added (Line 351)
+Then to finish the implementation, add the RampDelegate protocol. Ramp's SDK requires three required methods to be added (Line 351)
 
 ```
 extension ViewController: RampDelegate {
