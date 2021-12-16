@@ -6,9 +6,9 @@ Ramp iOS SDK is a library that allows you to easily integrate Ramp into your iOS
 
 The quickest way to get started is by following the [tutorial](https://kintegrate.dev/tutorials/getting-started-ios-sdk/) or by downloading the [starter kit](https://kintegrate.dev/starters/kin-ios-starter/).
 
-## Test Enviroment
+## Test Environment
 
-At the time of this writing the SOLANA_KIN asset is not listed on Ramp's test enviroment. This demo connects directly to the production enviroment in order to show KIN as an option.
+At the time of this writing the SOLANA_KIN asset is not listed on Ramp's test enviroment. This demo connects directly to the production environment in order to show KIN as an option.
 
 To switch your demo to the test environment you need to specify a [test network](https://docs.ramp.network/testing-environments).
 
@@ -45,11 +45,9 @@ Once the pods are installed, open the generated xcworkspace file.
 
 Press the play icon to start the demo app
 
-![Alt text](/media/mainscreen.png?raw=true "Demo mainscreen")
-
 Press the Purchase Kin button, follow the on-screen instructions to finish up your purchase.
 
-![Alt text](/media/ramp.mp4?raw=true "Purchase Kin")
+![Alt text](/media/ramp.gif?raw=true "Purchase Kin")
 
 ## How to add and customize Ramp
 
