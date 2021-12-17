@@ -6,6 +6,18 @@ Ramp iOS SDK is a library that allows you to easily integrate Ramp into your iOS
 
 The quickest way to get started is by following the [tutorial](https://kintegrate.dev/tutorials/getting-started-ios-sdk/) or by downloading the [starter kit](https://kintegrate.dev/starters/kin-ios-starter/).
 
+## Test Environment
+
+At the time of this writing the SOLANA_KIN asset is not listed on Ramp's test enviroment. This demo connects directly to the production environment in order to show KIN as an option.
+
+To switch your demo to the test environment you need to specify a [test network](https://docs.ramp.network/testing-environments).
+
+Example:
+
+```
+configuration.url = "https://ri-widget-staging.firebaseapp.com/"
+```
+
 ## How to add Ramp
 
 In your Podfile
@@ -33,11 +45,9 @@ Once the pods are installed, open the generated xcworkspace file.
 
 Press the play icon to start the demo app
 
-![Alt text](/media/mainscreen.png?raw=true "Demo mainscreen")
-
 Press the Purchase Kin button, follow the on-screen instructions to finish up your purchase.
 
-![Alt text](/media/ramp.mp4?raw=true "Purchase Kin")
+<img src="/media/ramp.gif" width="400" />
 
 ## How to add and customize Ramp
 
@@ -122,14 +132,14 @@ Add the subView of our button (Line 201 in the demo)
 ```
         view.addSubview(getRamp)
 ```
-Add
+Add the button to the subview layouts  (Line 209 in the demo)
 
 ```
         getRamp.frame = getRampButtonFrame
         getRamp.layer.cornerRadius = getRampButtonFrame.height / 2.0
 ```
 
-Ramp's SDK requires the RampDelegate protocol three required methods to be added (Line 351)
+Then to finish the implementation, add the RampDelegate protocol. Ramp's SDK requires three required methods to be added (Line 351)
 
 ```
 extension ViewController: RampDelegate {
