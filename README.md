@@ -1,10 +1,10 @@
-# Integrate RAMP on your KIN iOS app
+# Integrate RAMP into your KIN iOS App
 
 Ramp iOS SDK is a library that allows you to easily integrate Ramp into your iOS app and communicate with it.
 
-## This Demo is based off the kin-ios-starter kit.
+## This demo is based on the kin-ios-starter kit.
 
-The quickest way to get started is by following the [tutorial](https://kintegrate.dev/tutorials/getting-started-ios-sdk/) or by downloading the [starter kit](https://kintegrate.dev/starters/kin-ios-starter/).
+The quickest way to get started is by following this [tutorial](https://kintegrate.dev/tutorials/getting-started-ios-sdk/) or by downloading the [starter kit](https://kintegrate.dev/starters/kin-ios-starter/).
 
 ## Test Environment
 
@@ -33,7 +33,7 @@ target 'kin-ios-ramp-demo' do
 end
 ```
 
-On your demo folder's root, install the pod files. This will bring the Ramp's SDK into your project
+On your demo folder's root, install the pod files. This will bring the Ramp SDK into your project
 
 ```
 pod install
@@ -51,7 +51,7 @@ Press the Purchase Kin button, follow the on-screen instructions to finish up yo
 
 ## How to add and customize Ramp
 
-To start add Ramp to your ViewController, Line 11 on the Demo.
+To start, add Ramp to your ViewController, Line 11 on the Demo.
 ```
 import Ramp
 ```
@@ -71,7 +71,7 @@ On the ViewController.swift file (Line23) define the information we will pass to
     }
 ```
 
-This pases the wallet address set on the Kin.swift file
+This passes the wallet address set on the Kin.swift file
 
 ```
 let address = kin?.address()
