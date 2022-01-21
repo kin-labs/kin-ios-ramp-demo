@@ -4,7 +4,7 @@ Ramp iOS SDK is a library that allows you to easily integrate Ramp into your iOS
 
 ## This demo is based on the kin-ios-starter kit.
 
-The quickest way to get started is by following this [tutorial](https://kintegrate.dev/tutorials/getting-started-ios-sdk/) or by downloading the [starter kit](https://kintegrate.dev/starters/kin-ios-starter/).
+The quickest way to get started is by following this [tutorial](https://developer.kin.org/tutorials/ios/).
 
 ## Test Environment
 
